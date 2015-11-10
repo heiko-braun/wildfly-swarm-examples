@@ -21,6 +21,8 @@ public class XmlMain {
         assert xmlConfig!=null : "Failed to load standalone.xml";
 
         Container container = new Container(false, xmlConfig);
+
+        //container.fraction(new LoggingFraction());
         container.fraction(new DatasourcesFraction());
 
         // Start the container
