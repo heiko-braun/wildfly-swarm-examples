@@ -141,6 +141,7 @@
                 </datasource>
                 <drivers>
                     <driver name="h2" module="com.h2database.h2">
+                        <datasource-class>org.h2.Driver</datasource-class>
                         <xa-datasource-class>org.h2.jdbcx.JdbcDataSource</xa-datasource-class>
                     </driver>
                 </drivers>

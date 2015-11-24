@@ -27,6 +27,7 @@ public class XmlMain {
 
         // Start the container
         container.start();
+
         JAXRSArchive appDeployment = ShrinkWrap.create(JAXRSArchive.class);
         appDeployment.addResource(MyResource.class);
 
