@@ -15,3 +15,4 @@ log
 jaxrs/.DS_Store
 .DS_Store
 datasource-subsystem/server.log
+datasource/datasource-subsystem/server.log
